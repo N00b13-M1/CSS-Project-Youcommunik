@@ -1,0 +1,109 @@
+/*GENERAL START*/
+
+body{
+    font-family: Ubuntu, sans-serif;
+}
+
+.container{
+    margin: 0 10%;
+    box-shadow:0 3px 3px rgba(0 0 0 0.5)
+}
+
+
+nav{
+    background: black;
+    display:flex;
+    color: white;
+    font-size:14px;
+}
+
+
+.nav-l{
+    padding: 30px 20px;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.nav-l img{
+    width: 250px;
+}
+
+.nav-r{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-r img{
+    width: 40px;
+}
+
+.nav-r ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-r li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.nav-r a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    background-color:rgb(39, 60, 74);
+    display:flex;
+}
+
+.banner .div-l{
+    display: flex;
+    flex: 30%;
+    justify-content:center;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.banner .div-r{
+    flex: 70%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight:lighter;
+    padding-left: 50px;
+}
+
+.banner h1{
+    font-weight:lighter;
+    font-size: 40px;
+}
+.banner span{
+    font-size: 20px;
+    font-weight:lighter;
+    word-spacing: 1%;
+}
+
+.banner img{
+    width: 200px;
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    background:rgb(39, 60, 74);
+    padding: 10px 50px;
+    color: white;
+ 
+}
